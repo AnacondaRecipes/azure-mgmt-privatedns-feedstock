@@ -24,6 +24,9 @@ requirements:
     - msrest >=0.5.0
     - azure-mgmt-core >=1.2.0,<2.0.0
     - azure-common >=1.1,<2
+    # _private_dns_management_client_enums.py - line 10
+    # from six import with_metaclass
+    - six
 
 test:
   imports:
